@@ -48,8 +48,6 @@ public class QuickSort {
 		PaymentObject tem = array[left];
 		array[left] = array[right];
 		array[right] = tem;
-		
-		
  	}
 
 }

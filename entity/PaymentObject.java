@@ -14,7 +14,7 @@ public class PaymentObject {
 	public int compareTo(PaymentObject other) {
 		Integer first = Integer.parseInt(this.date);
 		Integer second = Integer.parseInt(other.date);
-		if (first == second) {
+		if (first.equals(second)) {
 			return (this.amount - other.amount);
 		}
 		return (first - second);
